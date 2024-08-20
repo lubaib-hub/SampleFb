@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+</head>
+<style>
+    #screen{
+        width: 25%;
+        height: 150px;
+        border: solid;
+    }
+</style>
+<body>
+  <input type="text" id="inp">
+  <button onclick="display()">Click Me</button>  
+  <h1 id="display-head"></h1>
+
+   
+  <div id="screen"></div>
+  <button onclick="color('red')">red</button>
+  <button onclick="color('green')">green</button>
+  <button onclick="color('yellow')">yellow</button>
+  <button onclick="color('green')">green</button>
+
+  <script>
+       function color(col){
+          document.getElementById("screen").style.background=col
+       }
+  </script>
+ 
+  
+  <script>
+    function display(){
+        var text=document.getElementById("inp").value
+        document.getElementById("display-head").innerHTML=text
+        if(text=="lubaib") alert("You are great")
+    }
+  </script>
+</body>
+</html>

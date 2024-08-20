@@ -1,0 +1,66 @@
+
+
+
+body{
+    margin: 0;
+    background:linear-gradient(white,#d3d8e8);
+    font-family: inherit;
+    
+}
+
+
+.logo{
+    margin-left: 31pc;
+    margin-top: 8pc;
+    
+}
+
+.login-box{
+    width: 332px;
+    height: 16pc;
+    background: white;
+    margin-bottom: 13pc;
+    margin-left: 27pc;
+    border-radius: 7px;
+}
+
+.text-box{
+    color: gray;
+    padding-left: 6pc;
+  padding-top: 1pc;
+}
+
+.inp{
+    width: 278px;
+  height: 33px;
+  padding-left: 9px;
+  margin-left: 22px;
+  border-radius: 4px;
+  border-color: gray;
+}
+
+.btn{
+    width: 292px;
+    height: 35px;
+    background: blue;
+    margin-left: 22px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background: green;
+}
+
+
+.img{
+    width: 211px;
+  height: 81px;
+}
+
+.link{
+    padding: 20px;
+ 
+        padding-left: 30px;
+        font-size: 14px;
+        text-decoration: none;
+}

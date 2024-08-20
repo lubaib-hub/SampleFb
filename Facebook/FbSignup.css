@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background:linear-gradient(white,#d3d8e8);
+    font-family: inherit;
+    
+}
+
+
+.logo{
+    margin-left: 35pc;
+    margin-top: 1pc;
+}
+.img{
+    width: 211px;
+  height: 81px;
+}
+
+.signup{
+    width: 368px;
+  height: 30pc;
+  background: white;
+  margin-bottom: 13pc;
+  margin-left: 30pc;
+  border-radius: 5px;
+}
+.text{
+    padding-left: 35px;
+    height: 8px;
+}
+
+.text1{
+    padding-left: 7pc;
+    color: gray;
+}
+
+.hr{
+    color: white;
+}
+
+.name{
+  height: 27px;
+  width: 155px;
+  margin-left: 12px;
+  border-radius: 5px;
+  border-color:#d3d8e8;
+  border: 1px solid #ccd0d5;
+}
+
+.password{
+    height: 27px;
+    width: 335px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border-color:#d3d8e8;
+    border: 1px solid #ccd0d5;
+}
+.p1{
+    font-family: inherit;
+    color: gray;
+    font-size: 13px;
+    margin-left: 12px;
+}
+.btn{
+  border-radius: 25px;
+  font-size: 10px;
+  background-color: darkslategray;
+  color: white;
+}
+#date{
+    width: 103px;
+    height: 25px;
+    margin-left: 12px;
+    border-radius: 8px;
+    border-color:#d3d8e8;
+    border: 1px solid #ccd0d5;
+    background: white;
+}
+#span{
+    width: 150px;
+    height: 25px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border-color:#d3d8e8;
+    border: 1px solid #ccd0d5;
+    background: white;
+}
+.p2{
+    color: gray;
+    font-size: 10px;
+    margin-left: 12px;
+}
+.sgup{
+    width: 170px;
+    height: 35px;
+    background: green;
+    margin-left: 92px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.link-last{
+    color: blue;
+    font-size: 11px;
+    margin-left: 120px;
+    text-decoration: none;
+}
